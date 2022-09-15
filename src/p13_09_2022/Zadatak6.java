@@ -27,12 +27,15 @@ public class Zadatak6 {
 		driver.manage().window().maximize();
 		driver.get("https://s.bootsnipp.com/iframe/z80en");
 
-		List<WebElement> print = driver.findElement(By.id("lorem"))
-				.findElements(By.xpath("//*[@class='table table-bordered']/tbody/tr/td"));
-		for (int i = 0; i < print.size(); i++) {
-			System.out.print(print.get(i).getText() + "\t");
+		List<WebElement> redovi = driver.findElement(By.id("lorem")).findElements(By.tagName("tr"));
+		for (int i = 0; i < redovi.size(); i++) {
+			List<WebElement> elementi = redovi.get(i).findElements(By.tagName("td"));
+			for (int j = 0; j < elementi.size(); j++) {
+				System.out.print(elementi.get(j).getText() + "\t");
+			}
+			System.out.println();
 		}
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 		driver.quit();
 
 	}

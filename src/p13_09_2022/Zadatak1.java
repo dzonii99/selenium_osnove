@@ -24,7 +24,7 @@ public class Zadatak1 {
 
 		driver.navigate().to("https://cms.demo.katalon.com/");
 
-		driver.findElement(By.xpath("//*[@name='s']")).sendKeys("Flying Ninja");
+//		driver.findElement(By.xpath("//*[@name='s']")).sendKeys("Flying Ninja");
 		driver.findElement(By.name("s")).sendKeys("Flying Ninja");
 		driver.findElement(By.xpath("//*[@class='search-submit']")).click();
 		Thread.sleep(5000);
