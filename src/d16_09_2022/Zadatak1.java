@@ -58,13 +58,15 @@ public class Zadatak1 {
 		File left = new File("img/left_nikola_milovanovic.png");
 		File right = new File("img/right_nikola_milovanovic.png");
 		Random r = new Random();
+		List<WebElement> strana = driver.findElements(By.xpath("//*[contains(@alt, 'image')]"));
 		List<File> listaSlike = new ArrayList<File>();
 		listaSlike.add(front);
 		listaSlike.add(left);
 		listaSlike.add(back);
 		listaSlike.add(right);
 		for (int i = 0; i < listaSlike.size(); i++) {
-			driver.findElement(By.xpath("//*[contains(@alt, 'image " + (i + 1) + "')]")).click();
+			strana.get(i).click();
+//			driver.findElement(By.xpath("//*[contains(@alt, 'image " + (i + 1) + "')]")).click();
 			driver.findElement(By.xpath("//*[text()='+ Add photo']")).click();
 			driver.findElement(By.id("imageUpload")).sendKeys(listaSlike.get(i).getAbsolutePath());
 			wait.until(
