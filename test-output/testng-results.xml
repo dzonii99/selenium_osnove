@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15971" started-at="2022-09-19T21:23:19 CEST" finished-at="2022-09-19T21:23:35 CEST">
+  <suite name="Default suite" duration-ms="38913" started-at="2022-09-21T02:32:37 CEST" finished-at="2022-09-21T02:33:16 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15971" started-at="2022-09-19T21:23:19 CEST" finished-at="2022-09-19T21:23:35 CEST">
-      <class name="p19_08_2022.KatalonLoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="setup" is-config="true" duration-ms="4210" started-at="2022-09-19T21:23:19 CEST" finished-at="2022-09-19T21:23:23 CEST">
+    <test name="Default test" duration-ms="38913" started-at="2022-09-21T02:32:37 CEST" finished-at="2022-09-21T02:33:16 CEST">
+      <class name="d19_09_2022.BootstrapTableTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="setup" is-config="true" duration-ms="4473" started-at="2022-09-21T02:32:37 CEST" finished-at="2022-09-21T02:32:41 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="beforeMethod" is-config="true" duration-ms="2483" started-at="2022-09-19T21:23:23 CEST" finished-at="2022-09-19T21:23:26 CEST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="4445" started-at="2022-09-21T02:32:41 CEST" finished-at="2022-09-21T02:32:46 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="visitLoginPageFromNavBar()[pri:10, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="visitLoginPageFromNavBar" duration-ms="1479" started-at="2022-09-19T21:23:26 CEST" finished-at="2022-09-19T21:23:27 CEST">
+        <test-method status="PASS" signature="editRow()[pri:10, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="editRow" duration-ms="3252" started-at="2022-09-21T02:32:46 CEST" finished-at="2022-09-21T02:32:49 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- visitLoginPageFromNavBar -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-19T21:23:27 CEST" finished-at="2022-09-19T21:23:27 CEST">
+        </test-method> <!-- editRow -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-21T02:32:49 CEST" finished-at="2022-09-21T02:32:49 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="beforeMethod" is-config="true" duration-ms="1224" started-at="2022-09-19T21:23:27 CEST" finished-at="2022-09-19T21:23:29 CEST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="5018" started-at="2022-09-21T02:32:49 CEST" finished-at="2022-09-21T02:32:54 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkInputTypes()[pri:20, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="checkInputTypes" duration-ms="1467" started-at="2022-09-19T21:23:29 CEST" finished-at="2022-09-19T21:23:30 CEST">
+        <test-method status="PASS" signature="deleteRow()[pri:20, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="deleteRow" duration-ms="12367" started-at="2022-09-21T02:32:54 CEST" finished-at="2022-09-21T02:33:06 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkInputTypes -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-19T21:23:30 CEST" finished-at="2022-09-19T21:23:30 CEST">
+        </test-method> <!-- deleteRow -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-21T02:33:06 CEST" finished-at="2022-09-21T02:33:06 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="beforeMethod" is-config="true" duration-ms="1314" started-at="2022-09-19T21:23:30 CEST" finished-at="2022-09-19T21:23:31 CEST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="7252" started-at="2022-09-21T02:33:06 CEST" finished-at="2022-09-21T02:33:14 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="displayErrorWhenCredentialsAreWrong()[pri:30, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="displayErrorWhenCredentialsAreWrong" duration-ms="2879" started-at="2022-09-19T21:23:31 CEST" finished-at="2022-09-19T21:23:34 CEST">
+        <test-method status="PASS" signature="takeAScreenshot()[pri:30, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="takeAScreenshot" duration-ms="1007" started-at="2022-09-21T02:33:14 CEST" finished-at="2022-09-21T02:33:15 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayErrorWhenCredentialsAreWrong -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-19T21:23:34 CEST" finished-at="2022-09-19T21:23:34 CEST">
+        </test-method> <!-- takeAScreenshot -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-21T02:33:15 CEST" finished-at="2022-09-21T02:33:15 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:p19_08_2022.KatalonLoginTest@569cfc36]" name="exit" is-config="true" duration-ms="841" started-at="2022-09-19T21:23:34 CEST" finished-at="2022-09-19T21:23:35 CEST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:d19_09_2022.BootstrapTableTests@23fe1d71]" name="afterClass" is-config="true" duration-ms="1026" started-at="2022-09-21T02:33:15 CEST" finished-at="2022-09-21T02:33:16 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exit -->
-      </class> <!-- p19_08_2022.KatalonLoginTest -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- d19_09_2022.BootstrapTableTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
