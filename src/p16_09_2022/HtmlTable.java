@@ -19,10 +19,15 @@ public class HtmlTable {
 	}
 
 	public List<WebElement> getColumnsByName(String naslov) {
-		List<WebElement> title = new ArrayList<>();
-		
-		
-		return title;
+		List<WebElement> headers = table.findElements(By.tagName("th"));
+		List<WebElement> column = headers.get(0).findElement(By.tagName("tr")).findElements(By.tagName("td"));
+		List<WebElement> elements = new ArrayList<>();
+		for (int i = 0; i < headers.size(); i++) {
+				if (headers.get(i).equals(naslov)) {
+					elements.add(column.get(i));
+			}
+		}
+		return elements;
 
 	}
 
