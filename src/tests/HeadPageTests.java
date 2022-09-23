@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class HeadPageTests extends AutomationPracticeTests {
 
-	@Test(priority = 20)
+	@Test(priority = 10)
 	public void topMenuMouseOver() throws InterruptedException {
 		new Actions(driver).moveToElement(topMenuPage.getWomenLink()).perform();
 		softAssert.assertTrue(topMenuPage.getWomenMenu().isDisplayed(), "Women submenu should be visible");
@@ -20,7 +20,7 @@ public class HeadPageTests extends AutomationPracticeTests {
 		softAssert.assertAll();
 	}
 
-	@Test(priority = 30)
+	@Test(priority = 20)
 	public void phoneNumberVisibilityCheckOnResize() throws InterruptedException {
 		driver.manage().window().maximize();
 		softAssert.assertTrue(headerPage.getShopPhoneElement().isDisplayed(), "Contact us number should be visible");
@@ -35,7 +35,7 @@ public class HeadPageTests extends AutomationPracticeTests {
 		driver.manage().window().maximize();
 	}
 
-	@Test(priority = 40)
+	@Test(priority = 30)
 	public void headerLinksCheck() {
 		headerPage.getContactUsLink().click();
 		softAssert.assertEquals(driver.getTitle(), "Contact us - My Store", "Title should be Contact us - My Store");
