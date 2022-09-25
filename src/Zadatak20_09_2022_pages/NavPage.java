@@ -34,8 +34,4 @@ public class NavPage {
 		return driver.findElement(By.className("page-item-7")).findElement(By.tagName("a"));
 	}
 
-	public String getCurrentUrl() {
-		return driver.getCurrentUrl();
-	}
-
 }

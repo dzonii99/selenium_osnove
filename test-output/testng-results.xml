@@ -1,57 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18860" started-at="2022-09-23T21:43:24 CEST" finished-at="2022-09-23T21:43:42 CEST">
+  <suite name="Default suite" duration-ms="51529" started-at="2022-09-25T16:18:28 CEST" finished-at="2022-09-25T16:19:19 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18860" started-at="2022-09-23T21:43:24 CEST" finished-at="2022-09-23T21:43:42 CEST">
-      <class name="tests.HeadPageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.HeadPageTests@28ac3dc3]" name="setup" is-config="true" duration-ms="3276" started-at="2022-09-23T21:43:24 CEST" finished-at="2022-09-23T21:43:27 CEST">
+    <test name="Default test" duration-ms="51529" started-at="2022-09-25T16:18:28 CEST" finished-at="2022-09-25T16:19:19 CEST">
+      <class name="Zadatak20_09_2022_tests.KatalonShopTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="setup" is-config="true" duration-ms="4381" started-at="2022-09-25T16:18:28 CEST" finished-at="2022-09-25T16:18:32 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.HeadPageTests@28ac3dc3]" name="beforeMethod" is-config="true" duration-ms="3929" started-at="2022-09-23T21:43:27 CEST" finished-at="2022-09-23T21:43:31 CEST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="2484" started-at="2022-09-25T16:18:32 CEST" finished-at="2022-09-25T16:18:35 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="topMenuMouseOver()[pri:10, instance:tests.HeadPageTests@28ac3dc3]" name="topMenuMouseOver" duration-ms="818" started-at="2022-09-23T21:43:31 CEST" finished-at="2022-09-23T21:43:32 CEST">
+        <test-method status="PASS" signature="addingProductWithQuantityToTheCart()[pri:10, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="addingProductWithQuantityToTheCart" duration-ms="4334" started-at="2022-09-25T16:18:35 CEST" finished-at="2022-09-25T16:18:39 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- topMenuMouseOver -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.HeadPageTests@28ac3dc3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-23T21:43:32 CEST" finished-at="2022-09-23T21:43:32 CEST">
+        </test-method> <!-- addingProductWithQuantityToTheCart -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-25T16:18:39 CEST" finished-at="2022-09-25T16:18:39 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.HeadPageTests@28ac3dc3]" name="beforeMethod" is-config="true" duration-ms="3017" started-at="2022-09-23T21:43:32 CEST" finished-at="2022-09-23T21:43:35 CEST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="915" started-at="2022-09-25T16:18:39 CEST" finished-at="2022-09-25T16:18:40 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="phoneNumberVisibilityCheckOnResize()[pri:20, instance:tests.HeadPageTests@28ac3dc3]" name="phoneNumberVisibilityCheckOnResize" duration-ms="698" started-at="2022-09-23T21:43:35 CEST" finished-at="2022-09-23T21:43:35 CEST">
+        <test-method status="PASS" signature="removingProductFromCart()[pri:20, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="removingProductFromCart" duration-ms="22338" started-at="2022-09-25T16:18:40 CEST" finished-at="2022-09-25T16:19:02 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- phoneNumberVisibilityCheckOnResize -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.HeadPageTests@28ac3dc3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-23T21:43:35 CEST" finished-at="2022-09-23T21:43:35 CEST">
+        </test-method> <!-- removingProductFromCart -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-25T16:19:02 CEST" finished-at="2022-09-25T16:19:02 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.HeadPageTests@28ac3dc3]" name="beforeMethod" is-config="true" duration-ms="2891" started-at="2022-09-23T21:43:35 CEST" finished-at="2022-09-23T21:43:38 CEST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="1398" started-at="2022-09-25T16:19:02 CEST" finished-at="2022-09-25T16:19:04 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="headerLinksCheck()[pri:30, instance:tests.HeadPageTests@28ac3dc3]" name="headerLinksCheck" duration-ms="3408" started-at="2022-09-23T21:43:38 CEST" finished-at="2022-09-23T21:43:42 CEST">
+        <test-method status="PASS" signature="verifyErrorIsDisplayedWhenUsernameIsMissing()[pri:30, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="verifyErrorIsDisplayedWhenUsernameIsMissing" duration-ms="2027" started-at="2022-09-25T16:19:04 CEST" finished-at="2022-09-25T16:19:06 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- headerLinksCheck -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.HeadPageTests@28ac3dc3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-23T21:43:42 CEST" finished-at="2022-09-23T21:43:42 CEST">
+        </test-method> <!-- verifyErrorIsDisplayedWhenUsernameIsMissing -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-25T16:19:06 CEST" finished-at="2022-09-25T16:19:06 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.HeadPageTests@28ac3dc3]" name="afterClass" is-config="true" duration-ms="777" started-at="2022-09-23T21:43:42 CEST" finished-at="2022-09-23T21:43:42 CEST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="991" started-at="2022-09-25T16:19:06 CEST" finished-at="2022-09-25T16:19:07 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyErrorIsDisplayedWhenPasswordIsMissing()[pri:40, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="verifyErrorIsDisplayedWhenPasswordIsMissing" duration-ms="2041" started-at="2022-09-25T16:19:07 CEST" finished-at="2022-09-25T16:19:09 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorIsDisplayedWhenPasswordIsMissing -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-25T16:19:09 CEST" finished-at="2022-09-25T16:19:09 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="942" started-at="2022-09-25T16:19:09 CEST" finished-at="2022-09-25T16:19:10 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyErrorIsDisplayedWhenPasswordIsWrong()[pri:50, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="verifyErrorIsDisplayedWhenPasswordIsWrong" duration-ms="2161" started-at="2022-09-25T16:19:10 CEST" finished-at="2022-09-25T16:19:12 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorIsDisplayedWhenPasswordIsWrong -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-25T16:19:12 CEST" finished-at="2022-09-25T16:19:12 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="973" started-at="2022-09-25T16:19:12 CEST" finished-at="2022-09-25T16:19:13 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyErrorIsDisplayedWhenUserDoesNotExist()[pri:60, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="verifyErrorIsDisplayedWhenUserDoesNotExist" duration-ms="2181" started-at="2022-09-25T16:19:13 CEST" finished-at="2022-09-25T16:19:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorIsDisplayedWhenUserDoesNotExist -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-25T16:19:15 CEST" finished-at="2022-09-25T16:19:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="beforeMethod" is-config="true" duration-ms="944" started-at="2022-09-25T16:19:15 CEST" finished-at="2022-09-25T16:19:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySuccessfulLogin()[pri:70, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="verifySuccessfulLogin" duration-ms="2504" started-at="2022-09-25T16:19:16 CEST" finished-at="2022-09-25T16:19:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-25T16:19:18 CEST" finished-at="2022-09-25T16:19:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Zadatak20_09_2022_tests.KatalonShopTests@23fe1d71]" name="afterClass" is-config="true" duration-ms="834" started-at="2022-09-25T16:19:18 CEST" finished-at="2022-09-25T16:19:19 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- tests.HeadPageTests -->
+      </class> <!-- Zadatak20_09_2022_tests.KatalonShopTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
