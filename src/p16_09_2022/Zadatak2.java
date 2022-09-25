@@ -31,9 +31,6 @@ public class Zadatak2 {
 		WebElement table = driver.findElement(By.xpath("//table"));
 		HtmlTable tabela = new HtmlTable(table);
 		System.out.println(tabela.getCellText(1, 3));
-		for (int i = 0; i < tabela.getColumnsByName("Age").size(); i++) {
-			System.out.println(tabela.getColumnsByName("Age").get(i));
-		}
 		driver.quit();
 
 	}
